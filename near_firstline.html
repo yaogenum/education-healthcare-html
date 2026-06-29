@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>接近一本线的理科生：医养健康本科择校建议</title>
-  <meta name="description" content="面向安徽物理类接近一本线的理科学生，整理护理学、康复治疗学、智能医学工程、药学等相关本科专业组的 2025 最低分、最低位次与分段建议。" />
+  <title>接近一本线的文科生：康养健康服务本科择校建议</title>
+  <meta name="description" content="面向安徽历史类接近一本线的文科学生，整理健康服务与管理、公共事业管理、护理等相关本科专业的 2025 最低分、最低位次与分段建议。" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f5eff'/%3E%3Cpath d='M17 35c8-16 22-16 30 0M21 39h22M27 26h10' stroke='white' stroke-width='5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E" />
   <style>
     :root {
@@ -26,7 +26,9 @@
       --radius: 18px;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
     }
+
     * { box-sizing: border-box; }
+
     body {
       margin: 0;
       background:
@@ -36,83 +38,296 @@
       color: var(--ink);
       line-height: 1.72;
     }
+
     a { color: var(--blue); text-decoration: none; }
     a:hover { text-decoration: underline; }
-    .page { width: min(1180px, calc(100% - 32px)); margin: 0 auto; padding: 40px 0 64px; }
-    .hero { display: grid; grid-template-columns: 1.25fr 0.75fr; gap: 28px; align-items: stretch; margin-bottom: 28px; }
-    .hero-main, .panel {
+
+    .page {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 40px 0 64px;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.25fr 0.75fr;
+      gap: 28px;
+      align-items: stretch;
+      margin-bottom: 28px;
+    }
+
+    .hero-main,
+    .panel {
       background: rgba(255, 255, 255, 0.88);
       border: 1px solid rgba(216, 221, 231, 0.9);
       border-radius: var(--radius);
       box-shadow: var(--shadow);
       backdrop-filter: blur(14px);
     }
+
     .hero-main { padding: 36px; }
     .panel { padding: 26px; margin-bottom: 22px; }
-    .kicker { color: var(--cyan); font-weight: 800; margin: 0 0 8px; }
-    h1 { font-size: clamp(30px, 5vw, 56px); line-height: 1.08; margin: 0 0 18px; }
-    h2 { font-size: clamp(24px, 3vw, 34px); line-height: 1.22; margin: 0 0 18px; }
-    h3 { font-size: 20px; line-height: 1.35; margin: 0 0 10px; }
+
+    .kicker {
+      color: var(--cyan);
+      font-weight: 800;
+      letter-spacing: 0;
+      margin: 0 0 8px;
+    }
+
+    h1 {
+      font-size: clamp(30px, 5vw, 56px);
+      line-height: 1.08;
+      margin: 0 0 18px;
+      letter-spacing: 0;
+    }
+
+    h2 {
+      font-size: clamp(24px, 3vw, 34px);
+      line-height: 1.22;
+      margin: 0 0 18px;
+      letter-spacing: 0;
+    }
+
+    h3 {
+      font-size: 20px;
+      line-height: 1.35;
+      margin: 0 0 10px;
+    }
+
     p { margin: 0 0 14px; }
-    .lead { font-size: 18px; color: #344054; max-width: 760px; }
+
+    .lead {
+      font-size: 18px;
+      color: #344054;
+      max-width: 760px;
+    }
+
     .stamp {
-      display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--line);
-      background: #fff; border-radius: 999px; padding: 8px 12px; color: var(--muted); font-size: 14px; margin-top: 12px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid var(--line);
+      background: #fff;
+      border-radius: 999px;
+      padding: 8px 12px;
+      color: var(--muted);
+      font-size: 14px;
+      margin-top: 12px;
     }
-    .hero-side { display: grid; gap: 16px; }
+
+    .hero-side {
+      display: grid;
+      gap: 16px;
+    }
+
     .score-card {
-      min-height: 118px; border-radius: var(--radius); padding: 22px; color: #fff;
-      display: flex; flex-direction: column; justify-content: space-between; box-shadow: var(--shadow);
+      min-height: 118px;
+      border-radius: var(--radius);
+      padding: 22px;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: var(--shadow);
     }
-    .score-card strong { display: block; font-size: 32px; line-height: 1; margin-bottom: 8px; }
+
+    .score-card strong {
+      display: block;
+      font-size: 32px;
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+
     .score-card span { color: rgba(255,255,255,0.86); }
     .score-card.blue { background: linear-gradient(135deg, #1f5eff, #00a6c8); }
     .score-card.green { background: linear-gradient(135deg, #16885f, #2fbd88); }
     .score-card.orange { background: linear-gradient(135deg, #e27730, #f4ad45); }
+
     .nav {
-      position: sticky; top: 0; z-index: 5; display: flex; flex-wrap: wrap; gap: 10px;
-      margin: 0 0 22px; padding: 12px; background: rgba(246, 247, 249, 0.82);
-      backdrop-filter: blur(12px); border-bottom: 1px solid rgba(216, 221, 231, 0.8);
+      position: sticky;
+      top: 0;
+      z-index: 5;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 0 0 22px;
+      padding: 12px;
+      background: rgba(246, 247, 249, 0.82);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(216, 221, 231, 0.8);
     }
+
     .nav a {
-      display: inline-flex; min-height: 36px; align-items: center; border: 1px solid var(--line);
-      background: #fff; border-radius: 999px; padding: 0 13px; color: #344054; font-weight: 700; font-size: 14px;
+      display: inline-flex;
+      min-height: 36px;
+      align-items: center;
+      border: 1px solid var(--line);
+      background: #fff;
+      border-radius: 999px;
+      padding: 0 13px;
+      color: #344054;
+      font-weight: 700;
+      font-size: 14px;
     }
-    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
-    .mini { border: 1px solid var(--line); border-radius: 14px; padding: 18px; background: #fff; }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+
+    .mini {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 18px;
+      background: #fff;
+    }
+
     .mini .tag {
-      display: inline-flex; border-radius: 999px; padding: 3px 9px; margin-bottom: 12px;
-      font-size: 12px; font-weight: 800; color: #1849b8; background: var(--soft-blue);
+      display: inline-flex;
+      border-radius: 999px;
+      padding: 3px 9px;
+      margin-bottom: 12px;
+      font-size: 12px;
+      font-weight: 800;
+      color: #1849b8;
+      background: var(--soft-blue);
     }
+
     .mini p { color: var(--muted); font-size: 15px; }
-    .callout { border-left: 5px solid var(--blue); background: var(--soft-blue); border-radius: 14px; padding: 18px 20px; margin: 18px 0; }
-    .callout.warning { border-left-color: var(--orange); background: var(--soft-orange); }
-    .callout.risk { border-left-color: var(--red); background: var(--soft-red); }
-    .table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 14px; background: #fff; }
-    table { width: 100%; min-width: 860px; border-collapse: collapse; }
-    th, td { text-align: left; vertical-align: top; padding: 13px 14px; border-bottom: 1px solid #ecf0f5; font-size: 15px; }
-    th { color: #344054; background: #f8fafc; font-size: 13px; white-space: nowrap; }
+
+    .callout {
+      border-left: 5px solid var(--blue);
+      background: var(--soft-blue);
+      border-radius: 14px;
+      padding: 18px 20px;
+      margin: 18px 0;
+    }
+
+    .callout.warning {
+      border-left-color: var(--orange);
+      background: var(--soft-orange);
+    }
+
+    .callout.risk {
+      border-left-color: var(--red);
+      background: var(--soft-red);
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #fff;
+    }
+
+    table {
+      width: 100%;
+      min-width: 860px;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      text-align: left;
+      vertical-align: top;
+      padding: 13px 14px;
+      border-bottom: 1px solid #ecf0f5;
+      font-size: 15px;
+    }
+
+    th {
+      color: #344054;
+      background: #f8fafc;
+      font-size: 13px;
+      letter-spacing: 0;
+      white-space: nowrap;
+    }
+
     tr:last-child td { border-bottom: none; }
+
     .rank {
-      display: inline-flex; align-items: center; justify-content: center; width: 30px; height: 30px;
-      border-radius: 50%; background: var(--soft-blue); color: var(--blue); font-weight: 900;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: var(--soft-blue);
+      color: var(--blue);
+      font-weight: 900;
     }
+
     .badge {
-      display: inline-flex; align-items: center; border-radius: 999px; padding: 3px 9px;
-      background: #f1f5f9; color: #475467; font-weight: 700; font-size: 12px; white-space: nowrap;
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      padding: 3px 9px;
+      background: #f1f5f9;
+      color: #475467;
+      font-weight: 700;
+      font-size: 12px;
+      white-space: nowrap;
     }
+
     .good { color: var(--green); font-weight: 800; }
     .careful { color: var(--orange); font-weight: 800; }
-    .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; counter-reset: step; }
-    .step { border: 1px solid var(--line); border-radius: 14px; padding: 20px; background: #fff; }
-    .step::before {
-      counter-increment: step; content: counter(step); display: inline-flex; width: 34px; height: 34px;
-      align-items: center; justify-content: center; margin-bottom: 12px; border-radius: 50%;
-      background: var(--ink); color: #fff; font-weight: 900;
+    .danger { color: var(--red); font-weight: 800; }
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      counter-reset: step;
     }
-    .sources { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; padding: 0; margin: 0; list-style: none; }
-    .sources li { border: 1px solid var(--line); border-radius: 12px; background: #fff; padding: 12px 14px; font-size: 14px; }
-    .footer { color: var(--muted); font-size: 13px; text-align: center; padding: 18px 0 0; }
+
+    .step {
+      position: relative;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 20px;
+      background: #fff;
+    }
+
+    .step::before {
+      counter-increment: step;
+      content: counter(step);
+      display: inline-flex;
+      width: 34px;
+      height: 34px;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 12px;
+      border-radius: 50%;
+      background: var(--ink);
+      color: #fff;
+      font-weight: 900;
+    }
+
+    .sources {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+
+    .sources li {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #fff;
+      padding: 12px 14px;
+      font-size: 14px;
+    }
+
+    .footer {
+      color: var(--muted);
+      font-size: 13px;
+      text-align: center;
+      padding: 18px 0 0;
+    }
+
     @media (max-width: 900px) {
       .page { width: min(100% - 22px, 760px); padding-top: 22px; }
       .hero, .grid-3, .steps, .sources { grid-template-columns: 1fr; }
@@ -127,23 +342,23 @@
   <main class="page">
     <section class="hero" id="top">
       <div class="hero-main">
-        <p class="kicker">理科生升学与就业方向整理</p>
-        <h1>接近一本线：理科生的医养健康本科怎么选</h1>
-        <p class="lead">这是一张单独页面，专门面向 2025 安徽物理类接近一本线但没有过线的学生。核心目标不是“为了本科而本科”，而是尽量在医学、康复、护理、药学、智能医学工程这些更适合理科生的方向里，挑真正可落地的本科选择。</p>
-        <div class="stamp">更新时间：2026-06-29 · 核心口径：2025 安徽物理类特殊类型控制线 514 分，对应位次 114928 · 本页按 494-514 分区间筛选</div>
+        <p class="kicker">文科生升学与就业方向整理</p>
+        <h1>接近一本线：康养健康服务方向的本科怎么选</h1>
+        <p class="lead">这是一张单独页面，专门面向 2025 安徽历史类接近一本线但没有过线的学生。核心目标不是“随便上本科”，而是尽量在健康服务、医养管理、护理服务这条线上挑更像样的本科选择。</p>
+        <div class="stamp">更新时间：2026-06-29 · 核心口径：2025 安徽历史类特殊类型控制线 515 分，对应位次 26691 · 本页按 495-514 分区间筛选</div>
       </div>
       <aside class="hero-side" aria-label="核心判断">
         <div class="score-card blue">
           <strong>优先</strong>
-          <span>护理学、康复治疗学、药学、智能医学工程、医学检验技术相关本科</span>
+          <span>健康服务与管理、公共事业管理、护理学相关本科</span>
         </div>
         <div class="score-card green">
           <strong>适合</strong>
-          <span>想保住本科层次，同时仍坚持医学健康赛道的理科生</span>
+          <span>想保住本科层次，同时仍坚持医养健康服务赛道的文科生</span>
         </div>
         <div class="score-card orange">
           <strong>谨慎</strong>
-          <span>若只盯临床口腔热门公办本科，这个分段会非常拥挤，必须接受专业组差异</span>
+          <span>这个分段可选项很少，若只盯省内公办且只要热门专业，容易失真</span>
         </div>
       </aside>
     </section>
@@ -164,37 +379,37 @@
       <div class="grid-3">
         <article class="mini">
           <span class="tag">最推荐</span>
-          <h3>皖医和蚌医优先</h3>
-          <p>如果目标是“接近一本线，但还差 0-20 分左右”，当前更值得优先看的，是皖南医科大学和蚌埠医科大学这类公办医学院里分数较低的专业组。</p>
+          <h3>安徽医科大临床医学院</h3>
+          <p>如果目标是“接近一本线，但还差 0-20 分左右”，当前最值得优先看的同赛道本科是安徽医科大学临床医学院的健康服务与管理、公共事业管理。</p>
         </article>
         <article class="mini">
           <span class="tag">更稳妥</span>
-          <h3>理科更看公办医学背景</h3>
-          <p>理科版和文科版不同。只要还能摸到公办医学院专业组，就不急着退到独立学院，因为医学背景和实训资源更关键。</p>
+          <h3>接受独立学院逻辑</h3>
+          <p>这个分段想留在医养健康服务赛道，多数情况下要接受医学类独立学院或民办本科，而不是执着于省内公办本科。</p>
         </article>
         <article class="mini">
           <span class="tag">报考策略</span>
-          <h3>不要只盯临床口腔</h3>
-          <p>如果分数在 494-507 之间，还执着于临床和口腔热门组，实际很容易失手。这个区间更现实的是护理学、康复治疗学、药学、智能医学工程。</p>
+          <h3>不要硬冲伪高配</h3>
+          <p>若分数在 505 以下，又强行冲高于 520 的学校，大概率只是名义上“冲一冲”，并不构成真实志愿策略。</p>
         </article>
       </div>
       <div class="callout">
-        <strong>一句话建议：</strong>如果是安徽物理类，分数接近 2025 一本线 514、但低 0-20 分左右，又想继续走医学健康方向，本页当前更优先的是蚌埠医科大学、皖南医科大学和安徽第二医学院这些公办医学院中的低分专业组。
+        <strong>一句话建议：</strong>如果是安徽历史类，分数接近 2025 一本线 515、但低 0-20 分左右，又想继续走康养健康服务方向，本页当前最优解是安徽医科大学临床医学院的健康服务与管理；更稳的替代项是南京医科大学康达学院、天津医科大学临床医学院这类医学独立学院。
       </div>
       <div class="callout warning">
-        <strong>本页当前推荐的一档最优解：</strong>蚌埠医科大学 `007组（护理学、助产学、生物医学科学、智能医学工程、生物科学）`，2025 安徽物理类最低分 514、最低位次 114928，正好压一本线。若更重稳妥，可看皖南医科大学 `006组`，最低分 507、最低位次 123841。
+        <strong>本页当前推荐的一档最优解：</strong>安徽医科大学临床医学院 `健康服务与管理`，2025 安徽历史类最低分 501、最低位次 32883，距离一本线 515 还差 14 分。若更想保录取稳定性，可看南京医科大学康达学院，最低分 496、最低位次 35222。
       </div>
     </section>
 
     <section class="panel" id="majors">
-      <h2>相近专业池：理科一本线附近优先项</h2>
+      <h2>相近专业池：不只看这 3 个专业名</h2>
       <div class="table-wrap">
         <table>
           <thead>
             <tr>
               <th>优先级</th>
               <th>专业名称</th>
-              <th>适合理科生的原因</th>
+              <th>适合文科生的原因</th>
               <th>未来岗位</th>
               <th>注意点</th>
             </tr>
@@ -202,38 +417,66 @@
           <tbody>
             <tr>
               <td><span class="rank">1</span></td>
-              <td><strong>护理学</strong></td>
-              <td>一本线下 0-20 分区间里，护理学往往是最现实、就业又最稳的本科医学专业之一。</td>
-              <td>医院护理、社区护理、老年护理、临床护理管理</td>
-              <td>工作强度高，适合愿意长期留在医疗体系的一线学生。</td>
+              <td><strong>智慧健康养老服务与管理</strong></td>
+              <td>服务管理、活动策划、机构运营、长者沟通都偏文科能力，同时叠加智能设备和健康数据场景。</td>
+              <td>养老顾问、社区康养专员、养老机构运营、适老化项目助理</td>
+              <td>要看学校是否真有养老机构实训，而不只是专业名好听。</td>
             </tr>
             <tr>
               <td><span class="rank">2</span></td>
-              <td><strong>康复治疗学</strong></td>
-              <td>理科适配度强，和医养赛道高度相关，就业路径比泛管理更硬。</td>
-              <td>医院康复科、运动康复、康养机构、社区康复</td>
-              <td>不同学校的实训资源差异很大，优先医学背景强的学校。</td>
+              <td><strong>健康管理</strong></td>
+              <td>偏沟通、档案管理、健康宣教、客户服务，文科学生适配度较高。</td>
+              <td>健康管理师助理、体检中心顾问、社区健康服务、保险健康服务</td>
+              <td>收入弹性取决于机构、城市和获客能力。</td>
             </tr>
             <tr>
               <td><span class="rank">3</span></td>
-              <td><strong>智能医学工程 / 生物医学科学</strong></td>
-              <td>更适合理工底子较好的学生，是医学和工程交叉方向。</td>
-              <td>医疗设备、智慧医院、医学数据、继续深造</td>
-              <td>本科阶段更适合作为升学跳板，直接就业不如护理稳定。</td>
+              <td><strong>老年保健与管理</strong></td>
+              <td>比纯管理更贴近老年人健康照护，容易形成实际技能。</td>
+              <td>老年照护、康养顾问、医养结合机构服务主管</td>
+              <td>部分岗位需要接受一线照护工作。</td>
             </tr>
             <tr>
               <td><span class="rank">4</span></td>
-              <td><strong>药学 / 药物制剂</strong></td>
-              <td>理科可承接，医药企业和医院药学都有出口。</td>
-              <td>医院药学、药企、医药流通、继续深造</td>
-              <td>如果更想走临床一线，药学不是第一选择。</td>
+              <td><strong>社会工作</strong></td>
+              <td>文科属性强，适合做社区、民政、养老、残障和家庭服务。</td>
+              <td>社区社工、养老社工、公益项目专员、民政服务窗口</td>
+              <td>薪资上限通常低于强商业岗位，但稳定性较好。</td>
             </tr>
             <tr>
               <td><span class="rank">5</span></td>
-              <td><strong>医学检验技术</strong></td>
-              <td>理科气质最强，医院检验和第三方检验机构都有需求。</td>
-              <td>检验科、第三方检验、医学实验室</td>
-              <td>通常要求学校实验条件和临床合作较强。</td>
+              <td><strong>现代家政服务与管理</strong></td>
+              <td>不是传统“做家政”，更接近家庭服务企业管理、母婴与长护服务调度。</td>
+              <td>家政平台运营、长护服务调度、家庭照护顾问</td>
+              <td>社会认知仍在变化，报考前要接受行业属性。</td>
+            </tr>
+            <tr>
+              <td><span class="rank">6</span></td>
+              <td><strong>康复治疗技术 / 中医康复技术</strong></td>
+              <td>技能含量更强，就业刚性更高，但理科、医学基础要求更高。</td>
+              <td>康复机构技师、社区康复、养老机构康复助理</td>
+              <td>对动手能力和医学课程接受度有要求。</td>
+            </tr>
+            <tr>
+              <td><span class="rank">7</span></td>
+              <td><strong>护理</strong></td>
+              <td>就业面宽、岗位刚性强，养老护理和慢病管理需求长期存在。</td>
+              <td>护士、养老机构护理主管、长护险服务</td>
+              <td>工作强度高，职业准入和实习压力较大。</td>
+            </tr>
+            <tr>
+              <td><span class="rank">8</span></td>
+              <td><strong>婴幼儿托育服务与管理</strong></td>
+              <td>与家庭健康服务相关，适合有亲和力、愿意做服务运营的学生。</td>
+              <td>托育机构运营、家庭教育服务、社区托育服务</td>
+              <td>受出生人口变化影响更明显，需谨慎看城市需求。</td>
+            </tr>
+            <tr>
+              <td><span class="rank">9</span></td>
+              <td><strong>现代殡葬技术与管理</strong></td>
+              <td>专业壁垒高、竞争小，安徽部分院校分数不低。</td>
+              <td>殡仪服务、生命礼仪服务、民政相关岗位</td>
+              <td>心理接受度和家庭接受度是最大门槛。</td>
             </tr>
           </tbody>
         </table>
@@ -242,7 +485,7 @@
 
     <section class="panel" id="national">
       <h2>现实判断</h2>
-      <p>接近一本线这档，真正难的不是“有没有本科”，而是“能不能在本科层次里继续留在医学健康赛道”。理科版的优势在于还能摸到公办医学院，但专业组的波动会很明显。</p>
+      <p>接近一本线这档，真正难的不是“有没有本科”，而是“能不能在本科层次里继续留在健康服务赛道”。客观上，这个区间在安徽历史类的可选项并不宽。</p>
       <div class="table-wrap">
         <table>
           <thead>
@@ -256,38 +499,38 @@
             <tr>
               <td><span class="rank">1</span></td>
               <td><strong>一本线口径</strong></td>
-              <td>2025 安徽物理类特殊类型控制线是 514 分，对应位次 114928。</td>
-              <td>本页讨论的就是 494-514 这一段。</td>
+              <td>2025 安徽历史类特殊类型控制线是 515 分。</td>
+              <td>本页讨论的就是 495-514 这一段。</td>
             </tr>
             <tr>
               <td><span class="rank">2</span></td>
               <td><strong>学校层次</strong></td>
-              <td>理科版这档还能碰到公办医学院，所以优先顺序是公办医学院低分组，大于独立学院热门组。</td>
-              <td>这是理科版比文科版更有优势的地方。</td>
+              <td>同赛道内更现实的是医学类独立学院、民办本科，而不是省内高位公办本科。</td>
+              <td>如果既要本科又要赛道匹配，这个妥协基本绕不开。</td>
             </tr>
             <tr>
               <td><span class="rank">3</span></td>
               <td><strong>专业匹配</strong></td>
-              <td>最现实的本科方向是护理学、康复治疗学、药学、智能医学工程，不是强冲临床口腔。</td>
-              <td>分数不够时，承认专业梯度，反而更接近真实录取。</td>
+              <td>最接近原方向的本科专业是健康服务与管理、公共事业管理、护理学。</td>
+              <td>如果只认“智慧养老”四个字，本科阶段反而会缩窄选择面。</td>
             </tr>
             <tr>
               <td><span class="rank">4</span></td>
-              <td><strong>省内平衡</strong></td>
-              <td>省内可以先看蚌埠医科大学、皖南医科大学、安徽第二医学院，再考虑外省补位。</td>
-              <td>先把省内公办医学院吃透，再谈外省。</td>
+              <td><strong>省内外平衡</strong></td>
+              <td>省内更容易接受的是安徽医科大学临床医学院；如果接受省外，则南京医科大学康达学院、天津医科大学临床医学院进入可选池。</td>
+              <td>分数不够时，跨省反而可能换来更好的医学背景。</td>
             </tr>
           </tbody>
         </table>
       </div>
       <div class="callout warning">
-        <strong>报考提醒：</strong>这张页面不做“全国样本榜”，因为接近一本线的理科本科选择更受专业组和选科要求影响。这里更重要的是把真实可选项缩小，而不是拉长名单。
+        <strong>报考提醒：</strong>这张页面不再做“全国样本榜”，因为接近一本线的本科选择更受省份、专业组选科和院校类型影响。这里更重要的是把真实可选项缩小，而不是拉长名单。
       </div>
     </section>
 
     <section class="panel" id="anhui">
-      <h2>安徽物理类本科候选</h2>
-      <p>下面按“接近一本线但未过线”的逻辑列出本科候选。排序优先看公办医学背景、专业含金量、最低分和最低位次，不机械追求最接近 514 分。</p>
+      <h2>安徽历史类本科候选</h2>
+      <p>下面按“接近一本线但未过线”的逻辑列出本科候选。排序优先看专业匹配度、医学背景、最低分和最低位次，不机械追求最接近 515 分。</p>
       <div class="table-wrap">
         <table>
           <thead>
@@ -297,107 +540,89 @@
               <th>专业</th>
               <th>2025 最低分</th>
               <th>2025 最低位次</th>
-              <th>距一本线 514 的差值</th>
+              <th>距一本线 515 的差值</th>
               <th>报考判断</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td><span class="rank">1</span></td>
-              <td><strong>蚌埠医科大学</strong></td>
-              <td>007组（护理学、助产学、生物医学科学、智能医学工程、生物科学）</td>
-              <td>514</td>
-              <td>114928</td>
-              <td>差 0 分</td>
-              <td><span class="good">当前最优先：正好压线，还是公办医学院本科</span></td>
+              <td><strong>安徽医科大学临床医学院</strong></td>
+              <td>健康服务与管理</td>
+              <td>501</td>
+              <td>32883</td>
+              <td>差 14 分</td>
+              <td><span class="good">当前最优先：赛道最贴合，医学背景也最顺</span></td>
             </tr>
             <tr>
               <td><span class="rank">2</span></td>
-              <td><strong>皖南医科大学</strong></td>
-              <td>005组（不限）</td>
-              <td>513</td>
-              <td>116088</td>
-              <td>差 1 分</td>
-              <td><span class="good">接近一本线，学校层次和医学背景都很强</span></td>
+              <td><strong>安徽医科大学临床医学院</strong></td>
+              <td>公共事业管理</td>
+              <td>500</td>
+              <td>33349</td>
+              <td>差 15 分</td>
+              <td><span class="good">文科适配度更高，适合偏管理和服务运营的学生</span></td>
             </tr>
             <tr>
               <td><span class="rank">3</span></td>
-              <td><strong>皖南医科大学</strong></td>
-              <td>007组（化学）</td>
-              <td>510</td>
-              <td>119738</td>
-              <td>差 4 分</td>
-              <td><span class="good">理科更适配，离一本线仍然不远</span></td>
+              <td><strong>南京医科大学康达学院</strong></td>
+              <td>历史类本科组</td>
+              <td>496</td>
+              <td>35222</td>
+              <td>差 19 分</td>
+              <td><span class="good">更稳的医学独立学院备选，适合保本科层次</span></td>
             </tr>
             <tr>
               <td><span class="rank">4</span></td>
-              <td><strong>皖南医科大学</strong></td>
-              <td>006组（护理学、助产学、康复治疗学、药物制剂等）</td>
-              <td>507</td>
-              <td>123841</td>
-              <td>差 7 分</td>
-              <td><span class="good">专业落地性最强，是稳妥型本科医学项</span></td>
+              <td><strong>天津医科大学临床医学院</strong></td>
+              <td>历史类 002 组</td>
+              <td>499</td>
+              <td>33524</td>
+              <td>差 16 分</td>
+              <td><span class="badge">可作为冲刺项，学校辨识度更高，但跨省成本更高</span></td>
             </tr>
             <tr>
               <td><span class="rank">5</span></td>
-              <td><strong>安徽第二医学院</strong></td>
-              <td>023组（生物）</td>
-              <td>500</td>
-              <td>134721</td>
-              <td>差 14 分</td>
-              <td><span class="badge">更稳的公办医学本科补位项</span></td>
-            </tr>
-            <tr>
-              <td><span class="rank">6</span></td>
-              <td><strong>安徽第二医学院</strong></td>
-              <td>021组（不限）</td>
-              <td>498</td>
-              <td>137053</td>
-              <td>差 16 分</td>
-              <td><span class="badge">适合想保公办本科且不想压太死分差的学生</span></td>
-            </tr>
-            <tr>
-              <td><span class="rank">7</span></td>
-              <td><strong>安徽第二医学院</strong></td>
-              <td>022组（化学）</td>
-              <td>494</td>
-              <td>142650</td>
+              <td><strong>天津医科大学临床医学院</strong></td>
+              <td>历史类 001 组</td>
+              <td>495</td>
+              <td>35799</td>
               <td>差 20 分</td>
-              <td><span class="badge">0-20 分区间的下沿保底项</span></td>
+              <td><span class="badge">压线保本科可看，但专业组内容要再核验</span></td>
             </tr>
           </tbody>
         </table>
       </div>
       <div class="callout risk">
-        <strong>重要校正：</strong>理科版里，压一本线并不代表一定要去冲临床和口腔热门组。对 494-514 这个区间，先拿下公办医学院中的护理、康复、药学、智能医学工程等方向，往往比冲失手更划算。
+        <strong>重要校正：</strong>如果只按“分数最接近 515 分”机械排序，你会倾向去冲更高但不真实的学校。对这个区间来说，更重要的是承认现实：优先拿下赛道匹配的医学类本科，再谈学校名气。
       </div>
     </section>
 
     <section class="panel" id="bands">
       <h2>按分数段填报</h2>
-      <p>下面按 2025 安徽物理类一本线 514 分往下拆成三档。理科版会更偏公办医学院和医学相关本科专业组。</p>
+      <p>下面按 2025 安徽历史类一本线 515 分往下拆成三档。逻辑依旧是冲、稳、保，但会明显比上一页更偏本科层次和医学背景。</p>
       <div class="grid-3">
         <article class="mini">
           <span class="tag">510-514</span>
-          <h3>主攻公办医学院</h3>
-          <p>这个区间最适合冲蚌埠医科大学 007组 514、皖南医科大学 005组 513、007组 510。</p>
-          <p>如果能到 512 以上，优先把皖医和蚌医放在前面。</p>
+          <h3>冲省内，稳省外医学独立学院</h3>
+          <p>这个区间最适合冲安徽医科大学临床医学院的健康服务与管理、公共事业管理，同时把天津医科大学临床医学院和南京医科大学康达学院放进稳志愿。</p>
+          <p>如果只填省内院校，容易把选择做窄。</p>
         </article>
         <article class="mini">
           <span class="tag">503-509</span>
-          <h3>皖医 006 组最关键</h3>
-          <p>这个区间的核心志愿是皖南医科大学 006组，专业包含护理学、助产学、康复治疗学、药物制剂等，2025 最低分 507、最低位次 123841。</p>
-          <p>如果分数在 505 左右，皖医 006 组是理科版最像样的主志愿之一。</p>
+          <h3>安徽医临做核心，康达做稳</h3>
+          <p>这个区间的核心志愿仍然是安徽医科大学临床医学院。只要分数在 503 左右以上，健康服务与管理和公共事业管理都有较强参考价值。</p>
+          <p>为了防止压线波动，南京医科大学康达学院应当进入稳志愿。</p>
         </article>
         <article class="mini">
-          <span class="tag">494-502</span>
-          <h3>安徽第二医学院做稳保</h3>
-          <p>这个区间更适合把安徽第二医学院 023组 500 / 134721、021组 498 / 137053、022组 494 / 142650 当成主力项。</p>
-          <p>如果分数在 496-500 左右，优先保公办医学本科，而不是去追更虚的热门目标。</p>
+          <span class="tag">495-502</span>
+          <h3>先保本科，再保赛道</h3>
+          <p>这个区间更适合把南京医科大学康达学院、天津医科大学临床医学院 001 组当成主力项，再去看安徽医科大学临床医学院是否值得冲一下。</p>
+          <p>如果分数落到 498 以下，就不要再把策略建立在高估自己能冲上的前提上。</p>
         </article>
       </div>
       <div class="callout">
-        <strong>简化版填报建议：</strong>如果你的实际成绩在 510 分以上，主报蚌埠医科大学和皖南医科大学；如果在 503-509 左右，主报皖南医科大学 006 组；如果在 494-502 左右，主报安徽第二医学院各本科组，先保住公办医学本科层次。
+        <strong>简化版填报建议：</strong>如果你的实际成绩在 503 分以上，主报安徽医科大学临床医学院；如果在 496-502 左右，南京医科大学康达学院和天津医科大学临床医学院应当进入核心名单；如果在 495 左右压线，优先考虑稳住医学类本科层次，而不是追求看起来更好但明显够不到的学校。
       </div>
     </section>
 
@@ -406,18 +631,18 @@
       <div class="grid-3">
         <article class="mini">
           <span class="tag">适合</span>
-          <h3>理科基础稳定</h3>
-          <p>理化基础不差，能接受解剖、生理、药理、检验和康复训练等课程。</p>
+          <h3>服务沟通型学生</h3>
+          <p>耐心、细致、愿意和老人及家庭沟通，能接受长期服务行业节奏。</p>
         </article>
         <article class="mini">
           <span class="tag">适合</span>
           <h3>稳定就业优先</h3>
-          <p>希望未来进入医院、基层医疗、康复中心、医药企业或继续深造的学生。</p>
+          <p>希望未来进入社区、养老机构、医养结合机构、体检中心、家政养老平台等场景。</p>
         </article>
         <article class="mini">
           <span class="tag">不适合</span>
-          <h3>只想轻松上本科</h3>
-          <p>如果完全不接受医学课程强度和一线实习压力，这一版大部分专业都不会轻松。</p>
+          <h3>只想轻松高薪</h3>
+          <p>康养行业长期有需求，但前期岗位未必轻松，收入提升依赖城市、机构、证书和管理能力。</p>
         </article>
       </div>
     </section>
@@ -427,15 +652,15 @@
       <div class="steps">
         <article class="step">
           <h3>第一轮：行业确定性</h3>
-          <p>用人口老龄化、医疗服务扩容、康复和护理需求增长来判断方向。结论：医学健康方向确定性强，但课程门槛和实习门槛也更高。</p>
+          <p>用国家老龄化、医养结合、职业教育专业目录、养老服务政策判断长期需求。结论：康养方向确定性较强，但不能把“需求大”直接等同于“人人高薪”。</p>
         </article>
         <article class="step">
-          <h3>第二轮：理科适配度</h3>
-          <p>剔除偏文科的管理类方向，保留护理、康复、药学、智能医学工程、医学检验等更适合理科生的路径。</p>
+          <h3>第二轮：文科适配度</h3>
+          <p>剔除过重工程、制造、纯理工门槛的方向，保留服务管理、健康管理、社工、家政运营、护理康复辅助等更适合文科生的路径。</p>
         </article>
         <article class="step">
           <h3>第三轮：学校与分数</h3>
-          <p>学校排序不只看分数，还看最低位次、距一本线差值、公办医学背景和专业壁垒。本页故意压缩成少量候选，避免为了拉长名单而牺牲真实性。</p>
+          <p>学校排序不只看分数，还看最低位次、距一本线差值、医学背景和专业贴合度。本页故意压缩成少量本科候选，避免为了拉长名单而牺牲真实性。</p>
         </article>
       </div>
       <div class="callout">
@@ -446,17 +671,17 @@
     <section class="panel" id="sources">
       <h2>主要出处与可复查链接</h2>
       <ul class="sources">
-        <li><a href="https://www.moe.gov.cn/" target="_blank" rel="noopener">教育部官网</a>：职业教育、院校政策和专业目录的官方入口。</li>
-        <li><a href="https://www.nhc.gov.cn/" target="_blank" rel="noopener">国家卫生健康委</a>：康复、护理、医养结合相关政策口径。</li>
+        <li><a href="https://www.moe.gov.cn/" target="_blank" rel="noopener">教育部官网</a>：职业教育、专业目录、院校政策的官方入口。</li>
+        <li><a href="https://www.nhc.gov.cn/" target="_blank" rel="noopener">国家卫生健康委</a>：医养结合、健康服务、老龄健康政策口径。</li>
         <li><a href="https://www.ahzsks.cn/" target="_blank" rel="noopener">安徽省教育招生考试院</a>：安徽高考招生计划与投档结果最终核验入口。</li>
-        <li><a href="https://www.gk100.com/read_36718403.htm" target="_blank" rel="noopener">安徽 2025 物理类特控线 514</a>：一本线口径参考。</li>
-        <li><a href="https://m.gk100.com/read_9454858.htm" target="_blank" rel="noopener">安徽 2025 特控线对应位次</a>：物理类特控线 514 对应位次 114928。</li>
-        <li><a href="https://www.6617.com/p_1261082827.html" target="_blank" rel="noopener">蚌埠医科大学 2025 录取线</a>：物理类 007组 514，004组 516，006组 522。</li>
-        <li><a href="https://www.6617.com/p_16557422140.html" target="_blank" rel="noopener">蚌埠医科大学专业组说明</a>：007组包含护理学、助产学、生物医学科学、智能医学工程、生物科学。</li>
-        <li><a href="https://www.6617.com/p_4119177745.html" target="_blank" rel="noopener">皖南医科大学 2025 录取线</a>：物理类 005组 513、007组 510、006组 507。</li>
-        <li><a href="https://www.6617.com/p_163267394823.html" target="_blank" rel="noopener">皖南医科大学专业组说明</a>：006组包含护理学、助产学、康复治疗学、药物制剂等。</li>
-        <li><a href="https://www.6617.com/p_2219894142.html" target="_blank" rel="noopener">安徽第二医学院 2025 录取线</a>：023组 500 / 134721，021组 498 / 137053，022组 494 / 142650。</li>
-        <li><a href="https://m.gaokao.cn/zd/199201" target="_blank" rel="noopener">安徽第二医学院掌上高考页</a>：安徽物理类本科最低分交叉参考。</li>
+        <li><a href="https://www.gk100.com/read_28081924.htm" target="_blank" rel="noopener">安徽 2025 历史类特控线 515</a>：一本线口径参考。</li>
+        <li><a href="https://www.gk100.com/read_36718403.htm" target="_blank" rel="noopener">安徽 2025 特控线对应位次</a>：历史类特控线 515 对应位次 26691。</li>
+        <li><a href="https://www.6617.com/p_2776134169.html" target="_blank" rel="noopener">安徽医科大学临床医学院 2025 录取线</a>：健康服务与管理 501 / 32883，公共事业管理 500 / 33349。</li>
+        <li><a href="https://m.gaokao.cn/zd/304108" target="_blank" rel="noopener">安徽医科大学临床医学院掌上高考页</a>：安徽历史类最低分 500、最低位次 33349。</li>
+        <li><a href="https://www.6617.com/p_1441560064.html" target="_blank" rel="noopener">南京医科大学康达学院 2025 录取线</a>：安徽历史类最低分 496。</li>
+        <li><a href="https://m.gaokao.cn/gk-mb/251/2546-34" target="_blank" rel="noopener">南京医科大学康达学院掌上高考页</a>：安徽历史类最低分 496、最低位次 35222。</li>
+        <li><a href="https://www.gk100.com/read_3144174418.htm" target="_blank" rel="noopener">天津医科大学临床医学院 2025 录取线</a>：安徽历史类 499 / 33524，495 / 35799。</li>
+        <li><a href="https://m.gaokao.cn/zd/200440" target="_blank" rel="noopener">天津医科大学临床医学院掌上高考页</a>：安徽历史类最低分与最低位次交叉参考。</li>
         <li><a href="https://www.gaokao.cn/" target="_blank" rel="noopener">阳光高考 / 掌上高考</a>：院校与专业查询参考入口。</li>
         <li><a href="https://www.dxsbb.com/" target="_blank" rel="noopener">大学生必备网</a>、<a href="https://www.gk100.com/" target="_blank" rel="noopener">高考100</a>、<a href="https://www.6617.com/" target="_blank" rel="noopener">6617</a>：第三方录取分与专业分汇总，仅作交叉参考。</li>
       </ul>
